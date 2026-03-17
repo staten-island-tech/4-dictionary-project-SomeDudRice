@@ -1,7 +1,27 @@
-items = {
- "name": "Samsung 55\" 4K UHD TV",
-   "price": 429.99,
-   "department": "Televisions",
-   "description": "55-inch Ultra HD Smart TV with HDR and built-in streaming apps."
-}
-print (items[0]["name"])
+items = [
+ {
+   "name": "baseball",
+     "price": 5,
+     "weight": 150,},
+ {
+   "name": "basket ball",
+     "price": 20,
+     "weight": 600,},
+ {
+   "name": "volley ball",
+     "price": 25,
+     "weight": 400,},
+ {
+   "name": "bowling ball",
+     "price": 75,
+     "weight": 7000,},
+ {
+   "name": "tennis ball",
+     "price": 2,
+     "weight": 60,},
+ {
+   "name": "soccer ball",
+     "price": 50,
+     "weight": 450,},
+]
+print (items[0]("name"))
