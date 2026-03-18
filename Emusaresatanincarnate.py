@@ -24,4 +24,5 @@ items = [
      "price": 50,
      "weight": 450,},
 ]
-print (items[0]("name"))
+for index, items in enumerate(items):
+    print(index, ":", items["name"])
