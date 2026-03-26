@@ -45,4 +45,4 @@ while buying == 0:
     total = total + items[order]["price"]
   if int(input("would you like to continue shopping? 1 to continue, 2 to end")) == 2:
     buying= +1
-print("youve pruchased",cart, "price is",total)
+print("youve pruchased",cart, "price is",total,"$")
